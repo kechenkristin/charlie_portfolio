@@ -8,11 +8,11 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I'm Brayden.</p>
+        <p className="text-xl mb-5">Hey, I'm Charlie. Second Year BSc Computer Science with Industrial Placement Student from University of Exeter</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
-          I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
-          <span className="heroShiny2 text-fun-pink">designing</span> for the
-          web.
+          Exploring the intersection of{" "}
+          <span className="heroShiny1 text-fun-pink">technology</span> and{" "}
+          <span className="heroShiny2 text-fun-pink">theme parks</span>. Passionate about creating immersive guest experiences and bringing animatronics to life.
           <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
@@ -26,7 +26,7 @@ function Hero() {
           <img
             className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
             style={{ animationDelay: "0.3s" }}
-            src="/static/doodles/hero/brayden.svg"
+            src="/static/doodles/hero/disney.svg"
           />
           <img
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
@@ -44,7 +44,7 @@ function Hero() {
             src="/static/doodles/hero/dino.svg"
           />
           <img
-            className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
+            className="sqD right-[-60px] sm:right-0 bottom-[-400px] lg:[5%]"
             style={{ animationDelay: "0.7s" }}
             src="/static/doodles/hero/paintbrush.svg"
           />
