@@ -23,7 +23,7 @@ const experiences: Experience[] = [
     title: "Activity Instructor",
     desc: "As an Activity Instructor at Supercamps Duncombe, I led engaging activities for children aged 8-14, fostering a safe, inclusive, and fun environment during their school holidays.",
     img: "/static/experiences/super.jpeg",
-    link: "https://react-emoji-search.braydentw.vercel.app/",
+    link: "https://www.linkedin.com/posts/leandanewlyn_teamduncombe-teamtuesday-dreamteam-ugcPost-7226665718371528705-zwXH?utm_source=share&utm_medium=member_desktop",
     // github: "https://github.com/braydentw/react-emoji-search",
     tags: ["Activity Planning & Delivery", "Adaptability & Problem-Solving", "Encouraging Inclusivity & Engagement"],
   },

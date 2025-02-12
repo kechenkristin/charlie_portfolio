@@ -1,17 +1,22 @@
-# **[braydentw.io](https://braydentw.io)**
+# **[Charlie's Portfolio](https://charlie-portfolio-tqgi.vercel.app/)**
 
-Hey there! I'm Brayden and this is my lovely lovely portfolio built using **React, NextJS, and TailwindCSS**!
 
-## Guidelines
+## Tech Stack
+**next.js**, **Vercel**
 
-> **Note**: **I ask of you that you do your best to follow these rules:**
+## Run Locally
+```
+npm install --force
+npm run dev
+```
 
-1. You can **use** this code and style **as inspiration**.
-2. **Please do not copy it directly**.
-3. **Giving credit** to (@BraydenTW) the author **is appreciated**.
 
-Doing so makes it better for everyone here on this platform and respects what everyone has made. **Please be you and make yourself unique from the rest!** ✨
+## Deploy Config 
+```
+next build  
+npm install --force
+```
 
-<hr/>
-<br/>
-<p>Thank you so much for your support. 💙</p>
+
+## Original Template
+https://github.com/BraydenTW/braydentw.io/tree/main

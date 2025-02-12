@@ -35,9 +35,10 @@ const fun: Fun[] = [
   },
   {
     desc: "Confidence is key… unless I’m trying to parallel park. Then, it’s pure chaos.",
-    img: "/static/fun/date.png",
+    img: "/static/fun/knight.png",
   },
   {
+
     desc: "I was *actually* nervous for a date once… but played it off like a pro. (At least, I think I did… XD)",
     img: "/static/fun/date.png",
   },
