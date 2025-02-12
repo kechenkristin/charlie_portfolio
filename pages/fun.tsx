@@ -1,7 +1,7 @@
 import Heading from "components/fun/Heading";
 import More from "components/fun/More";
 import Page from "components/utility/Page";
-import Funs from "components/fun/Fun";
+import Funs from "components/fun/Funs";
 import React from "react";
 
 function fun() {
