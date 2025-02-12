@@ -1,12 +1,12 @@
 import React from "react";
-import { designs } from "../../data/content/designs";
+import { projects } from "../../data/content/projects";
 
 import Image from "next/image";
 
-function Designs() {
+function Projects() {
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
-      {designs.map((item, index) => {
+      {projects.map((item, index) => {
         return (
           <div
             className="w-full rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105"
@@ -31,4 +31,4 @@ function Designs() {
   );
 }
 
-export default Designs;
+export default Projects;

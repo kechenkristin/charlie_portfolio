@@ -1,14 +1,14 @@
-type Design = {
+type Project = {
     label: string,
     img: string,
     link: string,
     desc?: string
   }
   
-  export const designs: Design[] = [
+  export const projects: Project[] = [
     {
       label: "Mobile Shopping App",
-      img: "/static/designs/mobile-shopping-app.jpg",
+      img: "/static/projects/icon_logo.svg",
       link: "https://dribbble.com/shots/9458498-Mobile-Shopping-App",
       desc: "A mobile shopping app concept with a clean and modern design."
     },
