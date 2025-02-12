@@ -1,4 +1,4 @@
-export type Project = {
+export type Experience = {
   id: number;
   title: string;
   desc: string;

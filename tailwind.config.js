@@ -50,7 +50,7 @@ module.exports = {
         'fadeInAndBounce': 'fadeIn 3s ease-out',
       },
       willChange: {
-        'projectCard': 'border-color, opacity, transform',
+        'experienceCard': 'border-color, opacity, transform',
       }
     },
   },
