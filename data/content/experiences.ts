@@ -1,4 +1,4 @@
-import { kebabCase, kebabArray } from "@/utils/utils";
+import { kebabCase } from "@/utils/utils";
 import { Experience } from "types";
 
 const experiences: Experience[] = [

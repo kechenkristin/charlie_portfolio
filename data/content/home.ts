@@ -1,13 +1,4 @@
-type Skill = {
-  title: string,
-  icon: string,
-  style?: object
-};
-type Testimonial = {
-  quote: string,
-  name: string,
-  job: string
-};
+import { Skill, Testimonial } from "types";
 
 
 export const skills: Skill[] = [

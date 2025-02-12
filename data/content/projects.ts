@@ -1,9 +1,4 @@
-type Project = {
-    label: string,
-    img: string,
-    link: string,
-    desc?: string
-  }
+import { Project } from "types";
   
   export const projects: Project[] = [
     {
