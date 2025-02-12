@@ -1,6 +1,6 @@
 import React from "react";
 import fun from "../../data/content/fun";
-import { Fun } from "types";
+import type { Fun } from "types"; // Use type-only import
 import FunCard from "./FunCard";
 
 type FunProps = {
@@ -12,7 +12,7 @@ function Fun({ overwriteFun }: FunProps) {
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-3 items-start">
       {FunList.map((item) => {
-        return <FunCard key={fun.id} fun={item} />;
+        return <FunCard fun={item} />;
       })}
     </div>
   );

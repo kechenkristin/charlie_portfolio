@@ -28,7 +28,6 @@ export type Project = {
 }
 
 export type Fun = {
-  id: number,
   desc: string,
   img: string,
 }
