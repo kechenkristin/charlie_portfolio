@@ -1,8 +1,23 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { routes } from "@/data/global";
 
 function Navbar({ currentPage }) {
+  const [isPlaying, setIsPlaying] = useState(false);
+  let audio;
+
+  const toggleMusic = () => {
+    if (!audio) {
+      audio = new Audio("/romantic-music.mp3");
+    }
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <nav className="flex items-center justify-between">
       <li className="list-none font-bold text-lg cursor-pointer">
@@ -13,7 +28,7 @@ function Navbar({ currentPage }) {
               src="/static/logos/charlie.jpg"
               width="60"
             />
-            {"Charlie".split("").map((letter, index) => {
+            {"Charlie".split("" ).map((letter, index) => {
               return (
                 <span key={index} className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
                   {letter}
@@ -39,6 +54,9 @@ function Navbar({ currentPage }) {
           );
         })}
       </ul>
+      <span className="ml-4 text-white text-2xl cursor-pointer" onClick={toggleMusic}>
+      🎵 Music 🎵
+      </span>
     </nav>
   );
 }
