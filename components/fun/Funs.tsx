@@ -7,7 +7,7 @@ type FunProps = {
     overwriteFun?: Fun[];
 };
 
-function Fun({ overwriteFun }: FunProps) {
+function Funs({ overwriteFun }: FunProps) {
   const FunList = overwriteFun ? overwriteFun : fun;
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-3 items-start">
@@ -18,4 +18,4 @@ function Fun({ overwriteFun }: FunProps) {
   );
 }
 
-export default Fun;
+export default Funs;

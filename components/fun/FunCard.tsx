@@ -4,7 +4,6 @@ function FunCard({ fun }) {
   return (
     <div
       className="max-w-sm mx-auto flex flex-col experiences-center md:experiences-start md:justify-center"
-      key={fun.id}
     >
       <div className="w-full h-64 overflow-hidden flex justify-center items-center">
         <img

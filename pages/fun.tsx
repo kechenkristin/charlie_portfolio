@@ -1,7 +1,7 @@
 import Heading from "components/fun/Heading";
 import More from "components/fun/More";
 import Page from "components/utility/Page";
-import Fun from "components/fun/Fun";
+import Funs from "components/fun/Fun";
 import React from "react";
 
 function fun() {
@@ -11,7 +11,7 @@ function fun() {
       meta={{ title: "Fun", desc: "Here are some fun facts about me." }}
     >
       <Heading />
-      <Fun />
+      <Funs />
       <More />
     </Page>
   );
