@@ -11,7 +11,7 @@ function Heading() {
         />
       </h1>
       <p className="text-fun-gray text-xl sm:text-2xl">
-        Enough said. Let's have the pictures do the talking.
+        Enough said. Let's have some fun facts about myself.
       </p>
       <img
             className="sqD w-10 -top-8 -right-8 absolute"

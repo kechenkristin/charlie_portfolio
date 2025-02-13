@@ -38,6 +38,12 @@ export const testimonials: Testimonial[] = [
     quote:
       "Charlie is a nice guy. :)",
     name: "Kechen Liu",
-    job: "4th year student at Exeter"
+    job: "Secret ;)"
   },
-];
+  {
+    quote:
+      "Charlie is a hardworking course mate, who takes evrything seriously, and asks a lot of questions during class.",
+    name: "Tas",
+    job: "Course mate"
+  },
+]
